@@ -1,0 +1,57 @@
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.toast {
+  animation: fadein 2s;
+  align-items: flex-start;
+  border-radius: 4px;
+  color: #fff;
+  display: flex;
+  padding: 16px;
+}
+
+.toast:not(:last-child) {
+  margin: 0 0 12px;
+}
+
+.toast--content {
+  flex: 1 1 auto;
+  margin: 0 12px 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.toast--dismiss {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  flex: 0 0 auto;
+  font: inherit;
+  padding: 0;
+}
+
+.toasts {
+  z-index: 10;
+  bottom: 24px;
+  position: fixed;
+  right: 24px;
+}

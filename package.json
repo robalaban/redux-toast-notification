@@ -1,0 +1,25 @@
+{
+  "name": "redux-toast-notification",
+  "version": "0.0.1",
+  "description": "A toast notification system for Redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robalaban/redux-toast-notification.git"
+  },
+  "keywords": [
+    "Redux",
+    "React",
+    "Toast",
+    "Notification"
+  ],
+  "author": "Robert Balaban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robalaban/redux-toast-notification/issues"
+  },
+  "homepage": "https://github.com/robalaban/redux-toast-notification#readme"
+}
